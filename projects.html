@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="veiwport" content="with=device-width, initial-scale=1.0">
+    <title>Creative Eye construction and interiors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/icon" href="images/165628.png">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="our%20work.html">OUR WORKS AND DESIGN</a></li>
+                    <li><a href="projects.html">PROJECTS DONE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Projects Done Till Now</h1>
+    </section>
+    <!--------projects-------->
+    <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+        <img src="images/DOIT.jpg">
+            <h2>Projects Done Till Now or More About Us</h2>
+            <p>Creative Eye construction and interiors  specialises in interior design and construction of bare shell corporate and commercial spaces.<br> </p><p>We assist our clients either with full turnkey design and build solutions, stand-alone interior design (space and theme planning), or project execution (contract construction) only.
+                </p><br><p>Our services are tailored to the specific requirements of the individual client company, in each and every project.</p><br><p>Our team comes from a broad range of backgrounds, which enables us to operate effectively across our various service fields. </p><br><p>Amongst them, our team members have decades of experience with millions of square feet of space designed and built. </p><br><p>This knowledge and experience comes to fore to produce functional, sustainable and efficient environments for our clients, on time, and within budget.</p>
+            
+            <div class="comment-box">
+            
+                <h3>Want To Apply?</h3>
+                <form action="form-handler.php"method="post" class="comment-form">
+                <input name="name" type="text" placeholder="Enter Name">
+                <input name="email" type="email" placeholder="Enter Email">
+                    <textarea name="message" rows="5" placeholder="What Work You Like?"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send!</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+        <h3>Projects Done Till Now</h3>
+            <div>
+            <span>Residential buildings</span>
+                 <span>6</span>
+            </div>
+            <div>
+            <span>Office interiors</span>
+                 <span>4</span>
+            </div>
+            <div>
+            <span>Commercial building construction and interiors</span>
+                 <span>8</span>
+            </div>
+            <div>
+            <span>Boundary work of cricket stadium</span>
+                 <span>2</span>
+            </div>
+            <div>
+            <span>Other projects going on</span>
+                 <span>5</span>
+            </div>
+        </div>
+        </div>
+    </section>
+     <!----Footer---->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Creative Eye construction and interiors  specialises in interior design and construction
+            <br>of bare shell corporate and commercial spaces.</p>
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i> 
+        <i class="fa fa-linkedin"></i>    
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Shreyansh Patra</p>
+    </section>
+    
+
+
+
+
+    <!----JavaScript For Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body></html>
